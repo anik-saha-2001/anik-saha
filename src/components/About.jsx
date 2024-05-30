@@ -33,7 +33,7 @@ const About = () => {
           I love <span className="text-blue-300">Winter</span> and hate{" "}
           <span className="text-red-500">Summer.</span>
         </li>
-        <li>I spent most of the time at home on my laptop.</li>
+        <li>I spend most of the time at home on my laptop.</li>
         <li>
           I can code <span className="text-pink-500">Full Stack websites</span>.
         </li>
