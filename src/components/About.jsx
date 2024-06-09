@@ -38,9 +38,8 @@ const About = () => {
           I can code <span className="text-pink-500">Full Stack websites</span>.
         </li>
         <li>
-          I <span className="text-green-500">learn</span> things slow and{" "}
-          <span className="text-red-500">unlearn</span> fast(impossible for me
-          to memorize things).
+          I have a{" "}
+          <span className="text-red-500">goldfish</span>memory.
         </li>
       </ul>
     </div>
