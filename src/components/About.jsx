@@ -39,7 +39,7 @@ const About = () => {
         </li>
         <li>
           I have a{" "}
-          <span className="text-red-500">goldfish</span>memory.
+          <span className="text-red-500">goldfish</span> memory.
         </li>
       </ul>
     </div>
