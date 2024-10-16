@@ -10,11 +10,26 @@ const Projects = () => {
       <div className="">
         <div className="ml-2 mb-2">
           <a
+            href="https://github.com/anik-saha-2001/book-my-hotel"
+            target="_blank"
+            className="text-green-700 hover:underline font-bold"
+          >
+            Hotel Booking Web App
+          </a>
+          <p className="text-gray-400 text-sm">
+            A hotel booking application built with the MERN stack, designed to provide a robust, scalable, 
+            and feature-rich experience. This project uses TypeScript for type safety and several advanced tools 
+            and libraries for functionality, security, and testing.
+          </p>
+        </div>
+        
+        <div className="ml-2 mb-2">
+          <a
             href="https://github.com/anik-saha-2001/mern-blog"
             target="_blank"
             className="text-green-700 hover:underline font-bold"
           >
-            Blog Website
+            Blog Web App
           </a>
           <p className="text-gray-400 text-sm">
             Developed a dynamic MERN stack blog app using Tailwind CSS, Firebase
@@ -34,20 +49,6 @@ const Projects = () => {
             Designed and developed a visually appealing frontend using React for
             a food delivery app with a user-friendly interface and context api
             for state management.
-          </p>
-        </div>
-
-        <div className="ml-2 mb-2">
-          <a
-            href="https://github.com/anik-saha-2001/React-E-Commerce-Frontend"
-            target="_blank"
-            className="text-green-700 hover:underline font-bold"
-          >
-            E-Commerce Website - Frontend
-          </a>
-          <p className="text-gray-400 text-sm">
-            Developed the frontend of E-commerce Website using React and Styled
-            Components.
           </p>
         </div>
       </div>
