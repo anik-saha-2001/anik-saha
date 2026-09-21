@@ -1,0 +1,14 @@
+{
+  "name": "Anik Saha",
+  "role": "Backend Developer",
+  "tagline": "t",
+  "bio": "b",
+  "location": "Siliguri",
+  "email": "a@b.com",
+  "socials": {
+    "github": "https://github.com/x"
+  },
+  "skills": [
+    "Node.js"
+  ]
+}

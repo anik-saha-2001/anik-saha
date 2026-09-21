@@ -1,0 +1,173 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Anik Saha} \\ \vspace{1pt}
+    \small +91 8918257187 $|$ \href{mailto:iamaniksaha.dev@gmail.com}{\underline{iamaniksaha.dev@gmail.com}} $|$
+    \href{https://linkedin.com/in/aniksaha2001}{\underline{linkedin.com/in/aniksaha2001}} $|$
+    \href{https://github.com/anik-saha-2001}{\underline{github.com/anik-saha-2001}}
+\end{center}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {\href{https://appycodes.dev/}{Appycodes Technologies LLP}}{September 2025 -- Present}
+      {Backend Developer}{India}
+
+      \vspace{2pt}
+      \textit{\small\textbf{Healthcare Clinic Management Backend} $|$ Node.js, TypeScript, PostgreSQL, Sequelize, JWT, Winston}
+      \resumeItemListStart
+        \resumeItem{Engineered a production-ready dental clinic management backend supporting clinics, doctors, patients, family members, appointments, subscriptions, payments, scans, notifications, and webhooks, deployed on DigitalOcean Droplets.}
+        \resumeItem{Designed a scalable database architecture with 27+ Sequelize models, 68 migrations, and 20 seeders; developed 74+ REST APIs across 30+ modules with automated Swagger/OpenAPI documentation.}
+        \resumeItem{Integrated Razorpay, ScanKit, Firebase Cloud Messaging, MSG91, Zoho CRM, and AWS S3-compatible storage for payments, AI dental scans, push/WhatsApp notifications, CRM sync, and file uploads; implemented Winston structured logging and Sentry for production error monitoring.}
+        \resumeItem{Automated 7 cron jobs handling appointment reminders, expiry workflows, membership renewal cycles, subscription lifecycle, user deletion, and daily Zoho CRM synchronization.}
+      \resumeItemListEnd
+
+      \vspace{3pt}
+      \textit{\small\textbf{Sports Talent Platform Backend} $|$ Node.js, TypeScript, PostgreSQL, Prisma, Supabase, Zod, GitHub Actions}
+      \resumeItemListStart
+        \resumeItem{Contributed to a production-ready backend covering authentication, player profiles, video highlights, subscriptions, uploads, and social engagement features, with JWT auth, email verification, and OTP flows deployed on DigitalOcean Droplets.}
+        \resumeItem{Collaborated on a scalable Prisma/PostgreSQL data model on Supabase spanning 20+ domain modules, 30+ migrations, and 50+ indexes and constraints, leveraging Supabase Storage for media file management.}
+        \resumeItem{Integrated Mux for video processing and background cron jobs for subscription lifecycle management, with storage quota enforcement for secure, media-based player profiles.}
+        \resumeItem{Worked within a layered architecture — controllers, services, repositories, DTOs, and validation schemas — with GitHub Actions CI pipelines for linting, type-checking, and migration drift detection.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\href{https://fordelstudios.com/}{Fordel}}{March 2025 -- June 2025}
+      {Software Development Engineer -- Intern}{India}
+
+      \vspace{2pt}
+      \textit{\small\textbf{Formula – Skincare Marketplace} $|$ Next.js 15, TypeScript}
+      \resumeItemListStart
+        \resumeItem{Contributed to a large-scale marketplace platform with 300+ app pages, 290+ dashboard pages, and 20+ API route handlers across storefront, seller, customer, and admin workflows.}
+        \resumeItem{Resolved critical bugs and performance issues across the codebase, consistently delivering fixes that met team standards and improved overall application stability.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\href{https://www.groveus.com/}{Groveus Informatics}}{August 2024 -- October 2024}
+      {Web Developer -- Intern}{India}
+      \resumeItemListStart
+        \resumeItem{Built and maintained dynamic web application features with a focus on responsive UI/UX design, cross-device compatibility, and frontend performance optimization.}
+        \resumeItem{Collaborated with the team to deliver iterative feature improvements, participating in code reviews and ensuring consistent quality across releases.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Languages:} JavaScript, TypeScript \\
+    \textbf{Frontend:} Next.js, React.js, Tailwind CSS, Bootstrap \\
+    \textbf{Backend:} Node.js, Express.js, Firebase, REST APIs \\
+    \textbf{Databases \& ORM:} PostgreSQL, MongoDB, Mongoose, Sequelize, Prisma, Supabase \\
+    \textbf{Cloud \& DevOps:} AWS (EC2, S3), DigitalOcean (Droplets, Spaces), Supabase Storage, Cloudinary, Mux \\
+    \textbf{Logging \& Monitoring:} Winston, Sentry \\
+    \textbf{CI/CD \& Tools:} GitHub Actions, Git, Postman, Swagger/OpenAPI \\
+    \textbf{AI \& Productivity:} Claude AI, Qwen AI, Antigravity, Codex \\
+  }}
+\end{itemize}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://www.sittechno.org/}{Siliguri Institute of Technology}}{Siliguri, India}
+      {BTech in Computer Science \& Engineering $|$ 8.1 CGPA}{2021 -- 2025}
+  \resumeSubHeadingListEnd
+
+\end{document}
